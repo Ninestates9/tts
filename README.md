@@ -15,7 +15,7 @@
 3.安卓端语言：Java  
 4.量化方法：Onnx模型动态量化  
 ## 参数及onnx格式模型下载地址  
-点击跳转HuggingFace[https://huggingface.co/datasets/Ninestates9/vits_parameter]  
+[点击跳转HuggingFace](https://huggingface.co/datasets/Ninestates9/vits_parameter)  
 ## 项目成员  
 队长：吴\*霖  
 队员：宋\*  
