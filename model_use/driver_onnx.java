@@ -22,7 +22,7 @@ public class driver_onnx {
         var t_noise_scale_w = OnnxTensor.createTensor(env,noise_scale_w);
         int[] length_scale = {1};
         var t_x_length_scale = OnnxTensor.createTensor(env,length_scale);
-        var inputs = Map.of("x",x,"x_lengths",x_lengths, "sid", sid, "noise_scale", noise_scale, "length_scale", length_scale, "noise_scale_w", noise_scale_w);
+        var inputs = Map.of("x",t_x,"x_lengths",t_x_lengths, "sid", t_sid, "noise_scale", t_noise_scale, "length_scale", t_x_length_scale, "noise_scale_w", t_noise_scale_w);
         try (var results = session.run(inputs)) {
             float[][][] result = (float[][][])results.get(0).getValue();
             float[] audio = result[0][0];
