@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">VITS</string>
     <string name="tv_one">语音生成工具</string>
     <string name="tv_two">请输入待处理文本</string>
     <string name="btn_one">生成语音</string>
+    <string name="text1">选择音色</string>
+    <string name="btn_two">重  放</string>
 </resources>
